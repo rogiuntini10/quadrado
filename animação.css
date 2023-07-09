@@ -1,0 +1,14 @@
+#naruto {
+    width: 100px;
+    height: 100px;
+    background-image: url("naruto.jpg");
+    animation: naruto 5s infinite;
+  }
+  @keyframes naruto {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
